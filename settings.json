@@ -1,37 +1,31 @@
 {
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.wrappingIndent": "same",
-    "editor.wordWrapColumn": 140,
-    "workbench.iconTheme": "vscode-icons",
     "workbench.colorTheme": "Dracula",
-    "editor.fontFamily": "'Fira Code'",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
-    "editor.fontSize": 16,
-    "editor.lineHeight": 24,
-    "editor.formatOnSave": false,
-    "editor.tabSize": 4,
-    "editor.renderLineHighlight": "gutter",
+    "editor.fontSize": 14,
+    "window.zoomLevel": -1,
+    "editor.tabSize": 2,
     "terminal.integrated.fontSize": 12,
-    "emmet.syntaxProfiles": {
-        "javascript": "jsx"
-    },
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
+    "editor.lineHeight": 22,
+    "explorer.compactFolders": false,
+    "editor.renderLineHighlight": "gutter",
+    "workbench.editor.labelFormat": "short",
+    "extensions.ignoreRecommendations": true,
     "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "emmet.includeLanguages": {
+        "javascript":"javascriptreact"
+    },
+    "emmet.syntaxProfiles": {
+        "javascript":"jsx"
+    },
     "breadcrumbs.enabled": true,
     "editor.parameterHints.enabled": false,
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
-    "git.autofetch": true,
-    "window.zoomLevel": 0,
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "workbench.startupEditor": "newUntitledFile",
-    "files.exclude": {
-        "**/.classpath": true,
-        "**/.project": true,
-        "**/.settings": true,
-        "**/.factorypath": true
-    },
+    "editor.rulers": [80, 120],
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "javascript.suggest.autoImports": false
+    
 }
